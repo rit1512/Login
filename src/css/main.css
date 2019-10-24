@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Roboto&display=swap");
+html,
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+.nav-link,
+span :hover {
+  cursor: default;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid re !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:whitesmoke;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-navbar {
+  background: #000;
+  position: sticky !important;
+}
+
+.navbar-demo-btn {
+  border-radius: 7px !important;
+  color:red !important;
+}
+
+
+
+.custom-footer {
+  background:	#44436D;
+  color:whitesmoke;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+footer a {
+  font-size: 1.1rem;
+  padding: 0px 2px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+
+#overview {
+  background-image: url("../images/overview-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  color: #010101;
+  min-height: 100vh !important;
+}
+
+.overview-image {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+#spotBuy-feature-image {
+  background: url("../images/spotBuy-feature.png");
+}
+
+#easyToUse-feature-image {
+  background: url("../images/easyToUse-feature.png");
+}
+
+#workflow-feature-image {
+  background: url("../images/workflow-feature.png");
+}
+
+.overview-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+.custom-btn {
+  width: 35%;
+}
+
+
+.custom-section {
+  min-height: 100% !important;
+}
+
+.features-container {
+  height: 30rem;
+  border-radius: 8px;
+  min-width: 25%;
+}
+
+
+.features-container:hover {
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.section-head {
+  color: #007bff;
+}
+
+.section-head-line {
+  width: 1rem;
+  height: 0.5rem;
+  border-radius: 25px;
+}
+
+.key-features-li-head {
+  color: #007bff;
+}
+
+.li-container {
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.06);
+  min-width: 80%;
+  height: 4rem;
+  background: #f8f8f8;
+}
+
+
+
+.demo-btn {
+  width: 35%;
+  color: red!important;
+  border: solid  1px;
+  background: #fff !important;
+}
+
+.demo-btn:hover {
+  color:whitesmoke!important;
+  border: solid #fff 1px;
+  background:red !important;
+}
+
+.feed-image{
+background-image: url("../images/overview-bg.jpeg");
+}
+
+#feedback-section {
+  
+  background:  #434269;
+  opacity: 0.8;
+  color: #fff;
+  min-height: 35rem;
+}
+
+.feedback-text-h1 {
+  font-size: 3.15rem;
+}
+
+.feedback-text {
+  font-size: 1.8rem;
+}
+
+.feedback-btn {
+  border-radius: 0px !important;
+  width: 10rem;
+}
+.feedback-btn:hover {
+  color:whitesmoke!important;
+  border: solid #fff 1px;
+  background:red !important;
+}
+
+
+
+.consolidate-image {
+  background-color: #fff;
+  background-size: contain !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat !important;
+  height: 12rem !important;
+  width: 100%;
+  display: block;
+  border-radius: 0.3rem;
+}
+
+
+
+
+
+
+
+.footer-link:hover {
+  color: #007bff !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-btn {
+    width: 50%;
+  }
+
+  .product-title {
+    font-size: 1.7rem !important;
+  }
+
+  .product-intro {
+    font-size: 1.1rem !important;
+  }
+
+  .section-head-line {
+    width: 2rem;
+  }
+
+  .features-container {
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  
+  .section-head {
+    font-size: 1.5rem;
+  }
+
+  .demo-btn {
+    width: 50%;
+  }
+
+  .li-container {
+    min-width: 90%;
+  }
+
+  
+
+  
+
+ 
+ 
+
+  
+
+  
+}
+
+/*# sourceMappingURL=main.css.map */
