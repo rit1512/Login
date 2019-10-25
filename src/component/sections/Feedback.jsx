@@ -7,7 +7,8 @@ function Feedback() {
   return (
     <Router>
       {/* <!-- SECTION 9 --> */}
-      <div className='col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-center feed-image' id='feedback-section'>
+      <div className='feed-image'>
+      <div className='col-lg-12 col-sm-12 col-xs-12 d-flex justify-content-center ' id='feedback-section'>
         <div className=' col-lg-10 row m-0 p-0 align-items-center'>
           <div className='mx-auto col-lg-10 col-sm-12 col-xs-12 text-justify justify-content-center text-center'>
             <p className='feedback-text-h1 product-title font-weight-regular'> Get in touch with us
@@ -36,6 +37,7 @@ function Feedback() {
            
           </div>
         </div>
+      </div>
       </div>
     </Router >
   )

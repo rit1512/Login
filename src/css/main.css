@@ -179,13 +179,13 @@ footer a:hover {
 }
 
 .feed-image{
-background-image: url("../images/overview-bg.jpeg");
+  background:url("../images/overview-bg.jpeg")
 }
 
 #feedback-section {
   
-  background:  #434269;
-  opacity: 0.8;
+  background-color:  #434269 ;
+ opacity: 0.8;
   color: #fff;
   min-height: 35rem;
 }
